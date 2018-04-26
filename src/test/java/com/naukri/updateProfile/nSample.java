@@ -22,6 +22,10 @@ public static void main(String[] args) throws Exception {
 	je.executeScript("arguments[0].scrollIntoView(true);",element);
 	System.out.println(element.getText());
 
+	
+	
+	
+	
 	}
 }
 
