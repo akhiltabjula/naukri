@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 26 16:00:09 IST 2018</td>
+<td>Started on:</td><td>Mon Apr 30 12:28:52 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>46 seconds (46211 ms)</td>
+<tr><td>Total time:</td><td>47 seconds (47064 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,9 +75,31 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.naukri.updateProfile.nTest.uploadFile()'><b>uploadFile</b><br>Test class: com.naukri.updateProfile.nTest</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.naukri.updateProfile.nTest.uploadFile(nTest.java:117)
+<td title='com.naukri.updateProfile.nTest.logout()'><b>logout</b><br>Test class: com.naukri.updateProfile.nTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;https://login.naukri.com/nLogin/....php&quot; title=&quot;Logout&quot;&gt;Logout&lt;/a&gt; is not clickable at point (1072, 168). Other element would receive the click: &lt;a href=&quot;https://resume.naukri.com/subscription&quot; title=&quot;...&quot;&gt;My Fastforward Services&lt;/a&gt;
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-EK7LB1N&apos;, ip: &apos;192.168.252.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\tabju\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: fa0b229b5e60585e57741b6de30e44b2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.naukri.updateProfile.nTest.logout(nTest.java:165)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -103,9 +125,31 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace634297796", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace634297796'><pre>java.lang.NullPointerException
-	at com.naukri.updateProfile.nTest.uploadFile(nTest.java:117)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2095486832", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2095486832'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;https://login.naukri.com/nLogin/....php&quot; title=&quot;Logout&quot;&gt;Logout&lt;/a&gt; is not clickable at point (1072, 168). Other element would receive the click: &lt;a href=&quot;https://resume.naukri.com/subscription&quot; title=&quot;...&quot;&gt;My Fastforward Services&lt;/a&gt;
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-EK7LB1N&apos;, ip: &apos;192.168.252.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\tabju\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: fa0b229b5e60585e57741b6de30e44b2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.naukri.updateProfile.nTest.logout(nTest.java:165)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -132,7 +176,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>3</td>
+<td>0</td>
 <td>com.naukri.updateProfile.nTest@3e6fa38a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -148,19 +192,29 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.naukri.updateProfile.nTest@3e6fa38a</td></tr>
 <tr>
-<td title='com.naukri.updateProfile.nTest.openURL()'><b>openURL</b><br>Test class: com.naukri.updateProfile.nTest</td>
+<td title='com.naukri.updateProfile.nTest.deleteResume()'><b>deleteResume</b><br>Test class: com.naukri.updateProfile.nTest</td>
 <td></td>
 <td>10</td>
 <td>com.naukri.updateProfile.nTest@3e6fa38a</td></tr>
 <tr>
+<td title='com.naukri.updateProfile.nTest.openURL()'><b>openURL</b><br>Test class: com.naukri.updateProfile.nTest</td>
+<td></td>
+<td>8</td>
+<td>com.naukri.updateProfile.nTest@3e6fa38a</td></tr>
+<tr>
 <td title='com.naukri.updateProfile.nTest.selectLogin()'><b>selectLogin</b><br>Test class: com.naukri.updateProfile.nTest</td>
 <td></td>
-<td>15</td>
+<td>7</td>
 <td>com.naukri.updateProfile.nTest@3e6fa38a</td></tr>
 <tr>
 <td title='com.naukri.updateProfile.nTest.selectProfile()'><b>selectProfile</b><br>Test class: com.naukri.updateProfile.nTest</td>
 <td></td>
-<td>4</td>
+<td>7</td>
+<td>com.naukri.updateProfile.nTest@3e6fa38a</td></tr>
+<tr>
+<td title='com.naukri.updateProfile.nTest.uploadResume()'><b>uploadResume</b><br>Test class: com.naukri.updateProfile.nTest</td>
+<td></td>
+<td>1</td>
 <td>com.naukri.updateProfile.nTest@3e6fa38a</td></tr>
 </table><p>
 </body>

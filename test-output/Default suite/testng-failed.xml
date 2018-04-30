@@ -6,8 +6,8 @@
       <class name="com.naukri.updateProfile.nTest">
         <methods>
           <include name="tearDown"/>
+          <include name="logout"/>
           <include name="launchBrowser"/>
-          <include name="uploadFile"/>
         </methods>
       </class> <!-- com.naukri.updateProfile.nTest -->
     </classes>

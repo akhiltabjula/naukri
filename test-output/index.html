@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\tabju\AppData\Local\Temp\testng-eclipse--1391266007\testng-customsuite.xml</span>
+                    <span>C:\Users\tabju\AppData\Local\Temp\testng-eclipse--1245687351\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.naukri.updateProfile.nTest" hash-for-method="uploadFile">uploadFile</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.naukri.updateProfile.nTest" hash-for-method="logout">logout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -121,6 +121,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.naukri.updateProfile.nTest" hash-for-method="deleteResume">deleteResume</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.naukri.updateProfile.nTest" hash-for-method="openURL">openURL</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -132,6 +137,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.naukri.updateProfile.nTest" hash-for-method="selectProfile">selectProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.naukri.updateProfile.nTest" hash-for-method="uploadResume">uploadResume</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -154,11 +164,33 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="uploadFile">
-                  </a> <!-- uploadFile -->
-                  <span class="method-name">uploadFile</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at com.naukri.updateProfile.nTest.uploadFile(nTest.java:117)
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;https://login.naukri.com/nLogin/....php&quot; title=&quot;Logout&quot;&gt;Logout&lt;/a&gt; is not clickable at point (1072, 168). Other element would receive the click: &lt;a href=&quot;https://resume.naukri.com/subscription&quot; title=&quot;...&quot;&gt;My Fastforward Services&lt;/a&gt;
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-EK7LB1N&apos;, ip: &apos;192.168.252.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\tabju\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: fa0b229b5e60585e57741b6de30e44b2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.naukri.updateProfile.nTest.logout(nTest.java:165)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -205,6 +237,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="deleteResume">
+                  </a> <!-- deleteResume -->
+                  <span class="method-name">deleteResume</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="openURL">
                   </a> <!-- openURL -->
                   <span class="method-name">openURL</span>
@@ -224,12 +263,19 @@
                   <span class="method-name">selectProfile</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadResume">
+                  </a> <!-- uploadResume -->
+                  <span class="method-name">uploadResume</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\tabju\AppData\Local\Temp\testng-eclipse--1391266007\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\tabju\AppData\Local\Temp\testng-eclipse--1245687351\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -278,32 +324,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'selectLogin')
+data.setCell(0, 1, 'deleteResume')
 data.setCell(0, 2, 'com.naukri.updateProfile.nTest')
-data.setCell(0, 3, 15463);
+data.setCell(0, 3, 10959);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'openURL')
 data.setCell(1, 2, 'com.naukri.updateProfile.nTest')
-data.setCell(1, 3, 10633);
+data.setCell(1, 3, 8259);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'selectProfile')
 data.setCell(2, 2, 'com.naukri.updateProfile.nTest')
-data.setCell(2, 3, 4844);
+data.setCell(2, 3, 7565);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'uploadFile')
+data.setCell(3, 1, 'selectLogin')
 data.setCell(3, 2, 'com.naukri.updateProfile.nTest')
-data.setCell(3, 3, 3503);
+data.setCell(3, 3, 7241);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'closeAllBrowsers')
+data.setCell(4, 1, 'uploadResume')
 data.setCell(4, 2, 'com.naukri.updateProfile.nTest')
-data.setCell(4, 3, 173);
+data.setCell(4, 3, 1496);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logout')
+data.setCell(5, 2, 'com.naukri.updateProfile.nTest')
+data.setCell(5, 3, 351);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'closeAllBrowsers')
+data.setCell(6, 2, 'com.naukri.updateProfile.nTest')
+data.setCell(6, 3, 121);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -336,29 +390,37 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">openURL</span>
-                <span class="method-start">8690 ms</span>
+                <span class="method-start">10008 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">closeAllBrowsers</span>
-                <span class="method-start">19330 ms</span>
+                <span class="method-start">18282 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectLogin</span>
-                <span class="method-start">19506 ms</span>
+                <span class="method-start">18409 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectProfile</span>
-                <span class="method-start">34972 ms</span>
+                <span class="method-start">25654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteResume</span>
+                <span class="method-start">33222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">uploadResume</span>
+                <span class="method-start">44183 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">uploadFile</span>
-                <span class="method-start">39819 ms</span>
+                <span class="method-name">logout</span>
+                <span class="method-start">45682 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">43512 ms</span>
+                <span class="method-start">46043 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

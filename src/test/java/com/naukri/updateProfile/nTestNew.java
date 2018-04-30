@@ -18,7 +18,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class nTest {
+public class nTestNew {
 	WebDriver driver;
 	JavascriptExecutor jse = (JavascriptExecutor) driver;
 
@@ -86,16 +86,19 @@ public class nTest {
 		WebElement pass = driver.findElement(By.name("PASSWORD"));
 		pass.clear();
 		pass.sendKeys("123456789");
+
 		WebDriverWait loginButtonWait = new WebDriverWait(driver, 10);
 		loginButtonWait
 				.until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//*[@id='lgnFrm']/div[8]/button")));
 
-		// For new form
-		/*WebElement loginButton = driver.findElement(By.xpath(".//*[@id='lgnFrmNew']/div[9]/button"));
-		loginButton.click();*/
-
 		// For old form
-		WebElement loginButton = driver.findElement(By.xpath(".//*[@id='lgnFrm']/div[8]/button"));
+		/*
+		 WebElement loginButton = driver.findElement(By.xpath(".//*[@id='lgnFrm']/div[8]/button"));
+		 loginButton.click();
+		 */
+		
+		// For new form
+		WebElement loginButton = driver.findElement(By.xpath(".//*[@id='lgnFrmNew']/div[9]/button"));
 		loginButton.click();
 
 		// Wait till naukri home page loads
