@@ -1,4 +1,4 @@
-com\naukri\pageObjects\nPOM.class
 com\naukri\updateProfile\nCloseAllBrowsers.class
 com\naukri\updateProfile\nLogin.class
 com\naukri\updateProfile\nTest.class
+com\naukri\pageObjects\nPOM.class
