@@ -8,12 +8,10 @@
         <methods>
           <include name="tearDown"/>
           <include name="uploadResume"/>
-          <include name="closeAllBrowsers"/>
           <include name="logout"/>
           <include name="selectLogin"/>
           <include name="launchBrowser"/>
           <include name="deleteResume"/>
-          <include name="openURL"/>
           <include name="selectProfile"/>
         </methods>
       </class> <!-- com.naukri.updateProfile.nTest -->
