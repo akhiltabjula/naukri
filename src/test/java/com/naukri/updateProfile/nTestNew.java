@@ -89,7 +89,7 @@ public class nTestNew {
 
 		WebDriverWait loginButtonWait = new WebDriverWait(driver, 10);
 		loginButtonWait
-				.until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//*[@id='lgnFrm']/div[8]/button")));
+				.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='lgnFrmNew']/div[9]/button")));
 
 		// For old form
 		/*
@@ -98,7 +98,7 @@ public class nTestNew {
 		 */
 		
 		// For new form
-		WebElement loginButton = driver.findElement(By.xpath(".//*[@id='lgnFrmNew']/div[9]/button"));
+		WebElement loginButton = driver.findElement(By.xpath("//*[@id='lgnFrmNew']/div[9]/button"));
 		loginButton.click();
 
 		// Wait till naukri home page loads
@@ -134,7 +134,7 @@ public class nTestNew {
 		attachResumeLink.click();
 
 		WebElement deleteResumeWait = (new WebDriverWait(driver, 15)).until(ExpectedConditions
-				.presenceOfElementLocated(By.xpath(".//*[@id='lazyAttachCV']/div/div/div[2]/div[1]/div[2]/div/a")));
+				.presenceOfElementLocated(By.xpath("//*[@id='lazyAttachCV']/div/div/div[2]/div[1]/div[2]/div/a")));
 
 		WebElement deleteResumeButton = driver
 				.findElement(By.xpath("//*[@id='lazyAttachCV']/div/div/div[2]/div[1]/div[2]/div/a"));

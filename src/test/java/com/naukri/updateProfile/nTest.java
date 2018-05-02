@@ -88,7 +88,7 @@ public class nTest {
 		pass.sendKeys("123456789");
 		WebDriverWait loginButtonWait = new WebDriverWait(driver, 10);
 		loginButtonWait
-				.until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//*[@id='lgnFrm']/div[8]/button")));
+				.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='lgnFrm']/div[8]/button")));
 
 		// For new form
 		/*WebElement loginButton = driver.findElement(By.xpath(".//*[@id='lgnFrmNew']/div[9]/button"));
@@ -131,7 +131,7 @@ public class nTest {
 		attachResumeLink.click();
 
 		WebElement deleteResumeWait = (new WebDriverWait(driver, 15)).until(ExpectedConditions
-				.presenceOfElementLocated(By.xpath(".//*[@id='lazyAttachCV']/div/div/div[2]/div[1]/div[2]/div/a")));
+				.presenceOfElementLocated(By.xpath("//*[@id='lazyAttachCV']/div/div/div[2]/div[1]/div[2]/div/a")));
 
 		WebElement deleteResumeButton = driver
 				.findElement(By.xpath("//*[@id='lazyAttachCV']/div/div/div[2]/div[1]/div[2]/div/a"));
@@ -140,7 +140,7 @@ public class nTest {
 		Thread.sleep(4000);
 
 		// delete resume button
-		WebElement deleteResumeConfirm = driver.findElement(By.xpath("html/body/div[5]/div[9]/div/div/button"));
+		WebElement deleteResumeConfirm = driver.findElement(By.xpath("/html/body/div[5]/div[9]/div/div/button"));
 		deleteResumeConfirm.click();
 		Thread.sleep(2000);
 

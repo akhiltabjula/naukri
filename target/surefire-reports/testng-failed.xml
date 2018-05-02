@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="naukriIteratingUploadFileTest(failed)">
+    <parameter name="URL" value="https://www.naukri.com/"/>
+    <classes>
+      <class name="com.naukri.updateProfile.nTestNew">
+        <methods>
+          <include name="logout"/>
+          <include name="selectProfile"/>
+          <include name="selectLogin"/>
+          <include name="uploadResume"/>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+          <include name="deleteResume"/>
+        </methods>
+      </class> <!-- com.naukri.updateProfile.nTestNew -->
+    </classes>
+  </test> <!-- naukriIteratingUploadFileTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
