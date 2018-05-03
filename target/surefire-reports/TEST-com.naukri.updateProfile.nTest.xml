@@ -1,72 +1,298 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.naukri.updateProfile.nTest" time="56.04" errors="0" skipped="0">
+<testsuite tests="7" failures="5" name="com.naukri.updateProfile.nTest" time="52.609" errors="0" skipped="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
-    <property name="java.vm.version" value="25.151-b12"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\tabju\workspace_maven\updateProfile"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\tabju\workspace_maven\updateProfile"/>
-    <property name="java.runtime.version" value="1.8.0_151-b12"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-EK7LB1N"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="USERDOMAIN" value="DESKTOP-EK7LB1N"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="JOB_NAME" value="naukri_multi_maven_Jenkins"/>
+    <property name="COMPUTERNAME" value="DESKTOP-EK7LB1N"/>
+    <property name="ANDROID_HOME" value="C:\Users\tabju\AppData\Local\Android\Sdk"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="tabju"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 2, GenuineIntel"/>
+    <property name="GIT_COMMITTER_EMAIL" value="tabjulaakhil@gmail.com"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\tabju\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/naukri_multi_maven_Jenkins/2/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-naukri_multi_maven_Jenkins-2"/>
+    <property name="PYTHONPATH" value="C:\Program Files (x86)\Python36-32;C:\Program Files (x86)\Python36-32\DLLs;C:\Program Files (x86)\Python36-32\Lib;C:\Program Files (x86)\Python36-32\Scripts;"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\Apache\apache-maven-3.5.3 C:\Users\tabju\.jenkins\war\WEB-INF\lib\remoting-3.17.jar C:\Users\tabju\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\tabju\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 49796"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3446e1082552b77b"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_151/bin;C:\Program Files (x86)\Python36-32\Scripts\;C:\Program Files (x86)\Python36-32\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jre1.8.0_151\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Python36-32;C:\Program Files (x86)\Python36-32\DLLs;C:\Program Files (x86)\Python36-32\Lib;C:\Program Files (x86)\Python36-32\Scripts;;C:\Program Files\Apache\apache-maven-3.5.3\bin;C:\Program Files\Apache\apache-maven-3.5.3;-Xms128m -Xmx256m;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Git\bin;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Users\tabju\AppData\Local\Android\Sdk\tools;C:\Users\tabju\AppData\Local\Android\Sdk\platform-tools;C:\Users\tabju\AppData\Local\Microsoft\WindowsApps;C:\Users\tabju\AppData\Roaming\npm"/>
+    <property name="GIT_COMMIT" value="afef4f2e55e3c78fa574c89b25e066bea98f60e4"/>
+    <property name="GIT_COMMITTER_NAME" value="akhiltabjula"/>
     <property name="java.io.tmpdir" value="C:\Users\tabju\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\tabju\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Program Files\Apache\apache-maven-3.5.3\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="testngFiles" value="src/test/resources/pom.xml"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Python36-32\Scripts\;C:\Program Files (x86)\Python36-32\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jre1.8.0_151\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Python36-32;C:\Program Files (x86)\Python36-32\DLLs;C:\Program Files (x86)\Python36-32\Lib;C:\Program Files (x86)\Python36-32\Scripts;;C:\Program Files\Apache\apache-maven-3.5.3\bin;C:\Program Files\Apache\apache-maven-3.5.3;-Xms128m -Xmx256m;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Git\bin;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Users\tabju\AppData\Local\Android\Sdk\tools;C:\Users\tabju\AppData\Local\Android\Sdk\platform-tools;C:\Users\tabju\AppData\Local\Microsoft\WindowsApps;C:\Users\tabju\AppData\Roaming\npm;."/>
-    <property name="maven.conf" value="C:\Program Files\Apache\apache-maven-3.5.3\bin\../conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Program Files\Apache\apache-maven-3.5.3\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\tabju"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="tabju"/>
-    <property name="java.class.path" value="C:\Program Files\Apache\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -U clean install -DtestngFiles=src/test/resources/pom.xml"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/naukri_multi_maven_Jenkins/2/"/>
+    <property name="M2_HOME" value="C:\Program Files\Apache\apache-maven-3.5.3"/>
+    <property name="=C:" value="C:\Users\tabju\Downloads"/>
+    <property name="ERROR_CODE" value="1"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_151"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Program Files\Apache\apache-maven-3.5.3\bin\.."/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="ANDROID_PTOOLS" value="C:\Users\tabju\AppData\Local\Android\Sdk\platform-tools"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3446e1082552b77b"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\Apache\apache-maven-3.5.3"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\tabju\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="HOMEPATH" value="\Users\tabju"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="maven3.interceptor" value="C:\Users\tabju\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Apache\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_151/bin;C:\Program Files\Java\jdk1.8.0_151/bin;C:\Program Files (x86)\Python36-32\Scripts\;C:\Program Files (x86)\Python36-32\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jre1.8.0_151\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Python36-32;C:\Program Files (x86)\Python36-32\DLLs;C:\Program Files (x86)\Python36-32\Lib;C:\Program Files (x86)\Python36-32\Scripts;;C:\Program Files\Apache\apache-maven-3.5.3\bin;C:\Program Files\Apache\apache-maven-3.5.3;-Xms128m -Xmx256m;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Git\bin;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\Users\tabju\AppData\Local\Android\Sdk\tools;C:\Users\tabju\AppData\Local\Android\Sdk\platform-tools;C:\Users\tabju\AppData\Local\Microsoft\WindowsApps;C:\Users\tabju\AppData\Roaming\npm;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="GIT_AUTHOR_EMAIL" value="tabjulaakhil@gmail.com"/>
+    <property name="POM_GROUPID" value="com.naukri"/>
+    <property name="POM_ARTIFACTID" value="updateProfile"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/naukri_multi_maven_Jenkins/"/>
+    <property name="GIT_HOME" value="C:\Program Files\Git\bin"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="afef4f2e55e3c78fa574c89b25e066bea98f60e4"/>
+    <property name="OneDrive" value="C:\Users\tabju\OneDrive"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/naukri_multi_maven_Jenkins/2/display/redirect"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="JENKINS_HOME" value="C:\Users\tabju\.jenkins"/>
+    <property name="ANDROID_TOOLS" value="C:\Users\tabju\AppData\Local\Android\Sdk\tools"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="TEMP" value="C:\Users\tabju\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="M2" value="C:\Program Files\Apache\apache-maven-3.5.3\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="2502"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\tabju\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\Apache\apache-maven-3.5.3/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-EK7LB1N"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_151"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
     <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\tabju"/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/naukri_multi_maven_Jenkins/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\tabju"/>
+    <property name="USERNAME" value="tabju"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\tabju\workspace_maven\updateProfile"/>
+    <property name="maven.conf" value="C:\Program Files\Apache\apache-maven-3.5.3\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\tabju\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.class.path" value="C:\Users\tabju\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Program Files\Apache\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\Apache\apache-maven-3.5.3/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="MAVEN_OPTS" value="-Xms128m -Xmx256m"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\tabju\.jenkins\workspace\naukri_multi_maven_Jenkins"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_151/bin"/>
+    <property name="=ExitCode" value="00000000"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Program Files\Apache\apache-maven-3.5.3"/>
+    <property name="JOB_BASE_NAME" value="naukri_multi_maven_Jenkins"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="GIT_AUTHOR_NAME" value="akhiltabjula"/>
+    <property name="POM_DISPLAYNAME" value="updateProfile"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="GIT_URL" value="https://github.com/akhiltabjula/naukri.git"/>
   </properties>
-  <testcase classname="com.naukri.updateProfile.nTest" name="openURL" time="12.925"/>
-  <testcase classname="com.naukri.updateProfile.nTest" name="closeAllBrowsers" time="0.623"/>
-  <testcase classname="com.naukri.updateProfile.nTest" name="selectLogin" time="42.492"/>
+  <testcase classname="com.naukri.updateProfile.nTest" name="openURL" time="13.059"/>
+  <testcase classname="com.naukri.updateProfile.nTest" name="closeAllBrowsers" time="1.156"/>
+  <testcase classname="com.naukri.updateProfile.nTest" name="selectLogin" time="12.703">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id=&apos;lgnFrm&apos;]/div[8]/button (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id=&apos;lgnFrm&apos;]/div[8]/button (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.naukri.updateProfile.nTest.selectLogin(nTest.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id=&apos;lgnFrm&apos;]/div[8]/button
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-EK7LB1N&apos;, ip: &apos;192.168.252.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 35 more
+</failure>
+  </testcase>
+  <testcase classname="com.naukri.updateProfile.nTest" name="selectProfile" time="0.089">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;root&apos;]/div/span/div/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/a&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-EK7LB1N&apos;, ip: &apos;192.168.252.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\tabju\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: de1b393fd9ca7e26e9e46238e054e1d2
+*** Element info: {Using=xpath, value=.//*[@id=&apos;root&apos;]/div/span/div/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;root&apos;]/div/span/div/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/a&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-EK7LB1N&apos;, ip: &apos;192.168.252.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\tabju\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: de1b393fd9ca7e26e9e46238e054e1d2
+*** Element info: {Using=xpath, value=.//*[@id=&apos;root&apos;]/div/span/div/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at com.naukri.updateProfile.nTest.selectProfile(nTest.java:114)
+</failure>
+  </testcase>
+  <testcase classname="com.naukri.updateProfile.nTest" name="deleteResume" time="10.168">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: .//*[@id=&apos;root&apos;]/div/span/div/div/div/div/div[2]/div[1]/div/div/ul/li[11] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//*[@id=&apos;root&apos;]/div/span/div/div/div/div/div[2]/div[1]/div/div/ul/li[11] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.naukri.updateProfile.nTest.deleteResume(nTest.java:125)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: .//*[@id=&apos;root&apos;]/div/span/div/div/div/div/div[2]/div[1]/div/div/ul/li[11]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-EK7LB1N&apos;, ip: &apos;192.168.252.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 35 more
+</failure>
+  </testcase>
+  <testcase classname="com.naukri.updateProfile.nTest" name="uploadResume" time="15.275">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: .//*[@id=&apos;attachCV&apos;] (tried for 15 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: .//*[@id=&apos;attachCV&apos;] (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.naukri.updateProfile.nTest.uploadResume(nTest.java:157)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: .//*[@id=&apos;attachCV&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-EK7LB1N&apos;, ip: &apos;192.168.252.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 35 more
+</failure>
+  </testcase>
+  <testcase classname="com.naukri.updateProfile.nTest" name="logout" time="0.159">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div/div/ul[2]/li[2]/a&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-EK7LB1N&apos;, ip: &apos;192.168.252.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\tabju\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: de1b393fd9ca7e26e9e46238e054e1d2
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/ul[2]/li[2]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div/div/ul[2]/li[2]/a&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-EK7LB1N&apos;, ip: &apos;192.168.252.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\tabju\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: de1b393fd9ca7e26e9e46238e054e1d2
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div/ul[2]/li[2]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at com.naukri.updateProfile.nTest.logout(nTest.java:173)
+</failure>
+  </testcase>
 </testsuite>

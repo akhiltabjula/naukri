@@ -2,19 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Suite]">
   <test thread-count="5" verbose="0" name="naukriIteratingUploadFileTest(failed)">
-    <parameter name="URL" value="https://www.naukri.com/"/>
     <classes>
-      <class name="com.naukri.updateProfile.nTestNew">
+      <class name="com.naukri.updateProfile.nTest">
         <methods>
-          <include name="logout"/>
-          <include name="selectProfile"/>
-          <include name="selectLogin"/>
-          <include name="uploadResume"/>
-          <include name="launchBrowser"/>
           <include name="tearDown"/>
+          <include name="uploadResume"/>
+          <include name="logout"/>
+          <include name="selectLogin"/>
+          <include name="launchBrowser"/>
           <include name="deleteResume"/>
+          <include name="selectProfile"/>
         </methods>
-      </class> <!-- com.naukri.updateProfile.nTestNew -->
+      </class> <!-- com.naukri.updateProfile.nTest -->
     </classes>
   </test> <!-- naukriIteratingUploadFileTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

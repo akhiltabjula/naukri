@@ -4,6 +4,8 @@ import static org.testng.Assert.assertEquals;
 
 import java.util.Set;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -21,7 +23,7 @@ import org.testng.annotations.Test;
 public class nTestNew {
 	WebDriver driver;
 	JavascriptExecutor jse = (JavascriptExecutor) driver;
-
+	public static final Logger log = LogManager.getLogger(nTestNew.class.getName());
 	@BeforeTest
 	public void launchBrowser() {
 		System.setProperty("webdriver.chrome.driver", "E:/Selenium/chromedriver.exe");
